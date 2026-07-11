@@ -1,0 +1,45 @@
+.offer-banner{
+    width:90%;
+    margin:40px auto;
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+}
+
+.offer-card{
+
+    color:white;
+
+    padding:40px 20px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.offer-card:hover{
+
+    transform:translateY(-8px) scale(1.03);
+}
+
+.offer-card h3{
+
+    font-size:22px;
+
+    margin-bottom:10px;
+}
+
+.offer-card p{
+
+    font-size:18px;
+
+    font-weight:bold;
+}
