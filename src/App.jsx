@@ -1,18 +1,7 @@
-import Navbar from "./components/Navbar/Navbar";
-import SearchBar from "./components/SearchBar/SearchBar";
-import Footer from "./components/Footer/Footer";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <SearchBar />
-
-      {/* React Router / Pages go here */}
-
-      <Footer />
-    </>
-  );
+  return <AppRoutes />;
 }
 
 export default App;
